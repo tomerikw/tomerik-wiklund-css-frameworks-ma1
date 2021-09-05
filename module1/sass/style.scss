@@ -1,0 +1,29 @@
+@import "partials/footer";
+@import "partials/boxes";
+@import "partials/variables";
+@import "partials/nav";
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: $font-primary;
+    font-size: medium;
+    color: #463F3A
+}
+
+.wrapper{
+    flex: 1 0 auto;
+}
